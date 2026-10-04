@@ -84,7 +84,7 @@ export const EventsSection = ({ id }) => {
 
 
 export const FullEventsView = ({ ContactFaqsSection, FooterMarquee }) => {
-  const [isHoveringEvent, setIsHoveringEvent] = React.useState(false);
+  const [, setIsHoveringEvent] = React.useState(false);
   const [showEventDetail, setShowEventDetail] = React.useState(false);
   const [isWaitlistActive, setIsWaitlistActive] = React.useState(false);
   const [isWaitlistSuccess, setIsWaitlistSuccess] = React.useState(false);

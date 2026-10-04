@@ -2,9 +2,6 @@ import React from "react";
 import {
   motion,
   AnimatePresence,
-  useScroll,
-  useTransform,
-  useSpring,
 } from "framer-motion";
 import { X } from "lucide-react";
 import "../styles/discover.css";
